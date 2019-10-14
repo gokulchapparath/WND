@@ -26,6 +26,10 @@ def regi():
 @app.route("/add")
 def add():
     return render_template('add.html')
+@app.route("/requests")
+def requests():
+    return render_template('requests.html')
+    
 
 
 
